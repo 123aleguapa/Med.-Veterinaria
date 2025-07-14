@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular Medicina Veterinaria</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #fefefe;
+    }
+    h2 {
+      background-color: #cde4d4;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .materia {
+      display: inline-block;
+      margin: 4px;
+      padding: 6px 12px;
+      background-color: #e4f0ec;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+    .materia:hover {
+      background-color: #d0ebe0;
+    }
+    .tachado {
+      text-decoration: line-through;
+      color: #888;
+      background-color: #f0f0f0 !important;
+    }
+  </style>
+</head>
+<body>
+  <h1>Malla Curricular - Medicina Veterinaria (UPS Cuenca)</h1>
+
+  <h2>Primer Nivel</h2>
+  <div class="materia" onclick="tachar(this)">Antropología Filosófico-Teológica</div>
+  <div class="materia" onclick="tachar(this)">Comunicación Oral y Escrita</div>
+  <div class="materia" onclick="tachar(this)">Biología</div>
+  <div class="materia" onclick="tachar(this)">Anatomofisiología I</div>
+  <div class="materia" onclick="tachar(this)">Fundamentos Matemáticos</div>
+
+  <h2>Segundo Nivel</h2>
+  <div class="materia" onclick="tachar(this)">Ética</div>
+  <div class="materia" onclick="tachar(this)">Introducción a la Investigación Científica</div>
+  <div class="materia" onclick="tachar(this)">Anatomofisiología II</div>
+  <div class="materia" onclick="tachar(this)">Histología</div>
+  <div class="materia" onclick="tachar(this)">Química Orgánica</div>
+
+  <h2>Tercer Nivel</h2>
+  <div class="materia" onclick="tachar(this)">Vida y Trascendencia</div>
+  <div class="materia" onclick="tachar(this)">Etología y Bienestar Animal</div>
+  <div class="materia" onclick="tachar(this)">Embriología</div>
+  <div class="materia" onclick="tachar(this)">Microbiología</div>
+  <div class="materia" onclick="tachar(this)">Patología</div>
+
+  <h2>Cuarto Nivel</h2>
+  <div class="materia" onclick="tachar(this)">Pensamiento Social de la Iglesia</div>
+  <div class="materia" onclick="tachar(this)">Bioquímica</div>
+  <div class="materia" onclick="tachar(this)">Nutrición Animal</div>
+  <div class="materia" onclick="tachar(this)">Pastos y Forrajes</div>
+  <div class="materia" onclick="tachar(this)">Inmunología</div>
+
+  <h2>Quinto Nivel</h2>
+  <div class="materia" onclick="tachar(this)">Pensamiento Crítico</div>
+  <div class="materia" onclick="tachar(this)">Prácticas de Servicio Comunitario</div>
+  <div class="materia" onclick="tachar(this)">Sistemas de Producción Ganadera I</div>
+  <div class="materia" onclick="tachar(this)">Semiología</div>
+  <div class="materia" onclick="tachar(this)">Mejoramiento Genético Animal</div>
+
+  <h2>Sexto Nivel</h2>
+  <div class="materia" onclick="tachar(this)">Fundamentos de Sociología</div>
+  <div class="materia" onclick="tachar(this)">Sistemas de Producción Ganadera II</div>
+  <div class="materia" onclick="tachar(this)">Farmacología</div>
+  <div class="materia" onclick="tachar(this)">Biometría</div>
+  <div class="materia" onclick="tachar(this)">Epidemiología</div>
+
+  <h2>Séptimo Nivel</h2>
+  <div class="materia" onclick="tachar(this)">Proyectos</div>
+  <div class="materia" onclick="tachar(this)">Laboratorio Clínico</div>
+  <div class="materia" onclick="tachar(this)">Farmacología y Toxicología</div>
+  <div class="materia" onclick="tachar(this)">Oncología</div>
+  <div class="materia" onclick="tachar(this)">Enfermedades Infecciosas</div>
+  <div class="materia" onclick="tachar(this)">Parasitología y Enfermedades Parasitarias</div>
+
+  <h2>Octavo Nivel</h2>
+  <div class="materia" onclick="tachar(this)">Prácticas pre profesionales</div>
+  <div class="materia" onclick="tachar(this)">Clínica Veterinaria</div>
+  <div class="materia" onclick="tachar(this)">Reproducción Animal</div>
+  <div class="materia" onclick="tachar(this)">Biometría Aplicada</div>
+
+  <h2>Noveno Nivel</h2>
+  <div class="materia" onclick="tachar(this)">Integración Curricular</div>
+  <div class="materia" onclick="tachar(this)">Fauna Silvestre</div>
+  <div class="materia" onclick="tachar(this)">Técnicas Quirúrgicas</div>
+  <div class="materia" onclick="tachar(this)">Biotecnología de la Reproducción Animal</div>
+  <div class="materia" onclick="tachar(this)">Imagenología</div>
+
+  <script>
+    function tachar(el) {
+      el.classList.toggle('tachado');
+    }
+  </script>
+</body>
+</html>
